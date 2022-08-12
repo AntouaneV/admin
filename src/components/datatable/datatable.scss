@@ -1,8 +1,49 @@
 .datatable {
   height: 600px;
   padding: 20px;
-  
-  .datatableTitle{
+
+  form {
+    h1 {
+      color: #00d1b2;
+      margin-left: 18px;
+    }
+    input {
+      padding: 6px;
+      padding-right: 16px;
+      padding-left: 16px;
+      margin-left: 18px;
+      border: none;
+      background-color: aliceblue;
+      margin-top: 8px;
+    }
+    button {
+      margin-left: 18px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-right: 16px;
+      padding-left: 16px;
+      background-color: #00d1b2;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      border: none;
+    }
+  }
+
+  .users-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid #00d1b2;
+    padding: 8px;
+  }
+
+  .datatableTitle {
     width: 100%;
     font-size: 24px;
     color: gray;
@@ -11,7 +52,7 @@
     align-items: center;
     justify-content: space-between;
 
-    .link{
+    .link {
       text-decoration: none;
       color: green;
       font-size: 16px;
@@ -66,7 +107,7 @@
       border: 1px dotted rgba(0, 0, 139, 0.596);
       cursor: pointer;
     }
-    
+
     .deleteButton {
       padding: 2px 5px;
       border-radius: 5px;
