@@ -45,7 +45,7 @@ const Datatable = (props) => {
           description: newProductDesc,
           price: newProductPrice,
           countryDestination: newProductDestination,
-          // travelDate: newProductDate,
+          // travelDate: '25-08-2022',
           imgUrl: newProductImg,
         },
         {
@@ -54,6 +54,8 @@ const Datatable = (props) => {
           },
         }
       );
+      console.log(res.data);
+      window.location.reload(false);
     } catch (error) {
       console.log(error);
     }
